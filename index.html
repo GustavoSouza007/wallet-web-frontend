@@ -11,7 +11,7 @@
     <div class="auth-container">
       <div class="auth-content">
         <div class="auth-content-container">
-          <img class="logo" src="assets/logo.png" alt="Logo" />
+          <img class="logo" src="src/assets/img/logo.png" alt="Logo" />
           <h3 class="full-width text-left mt larger">Bem vindo!</h3>
           <p class="mt small">
             Digite seu e-mail abaixo para ter acesso á aplicação financeira
@@ -25,8 +25,12 @@
             name="input-email"
             placeholder="email@exemplo.com"
           />
-          <button class="full-width mt large">Acessar</button>
-          <a class="mt larger">Não tem conta? Faça seu cadastro aqui.</a>
+          <button onclick="onClickLogin()" class="full-width mt large">
+            Acessar
+          </button>
+          <a href="src/pages/register/index.html" class="mt larger"
+            >Não tem conta? Faça seu cadastro aqui.</a
+          >
         </div>
       </div>
     </div>
