@@ -5,16 +5,19 @@ const onCallRegister = async (email, name) => {
       name,
     };
 
-    const response = await fetch("https://mp-walett-app-api.herokuapp.com", {
-      method: "POST",
-      mode: "cors",
-      cache: "no-cache",
-      credentials: "same-origin",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    });
+    const response = await fetch(
+      "https://mp-wallet-app-api.herokuapp.com/users",
+      {
+        method: "POST",
+        mode: "no-cors",
+        cache: "no-cache",
+        credentials: "same-origin",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      }
+    );
 
     const user = await response.json();
     return user;
@@ -24,8 +27,8 @@ const onCallRegister = async (email, name) => {
 };
 
 const onRegister = async () => {
-  const name = document.getElementById("input-name").value;
   const email = document.getElementById("input-email").value;
+  const name = document.getElementById("input-name").value;
 
   if (name.length < 3) {
     alert("Nome deve ter mais que 3 caracteres.");
