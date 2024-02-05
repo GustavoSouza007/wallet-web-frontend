@@ -26,6 +26,21 @@
   height: 24px;
 }
 
+.navbar-calendar-container {
+  width: 240px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.input-calendar {
+  width: 156px;
+  height: 42px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
 .navbar-user-container {
   width: 260px;
   height: 100%;
