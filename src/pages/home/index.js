@@ -1,16 +1,34 @@
+const onDeleteItem = async (id) => {
+  try {
+    const email = localStorage.getItem("@WalletWeb:userEmail");
+    await fetch(`https://mp-wallet-app-api.herokuapp.com/finances/${id}`, {
+      method: "DELETE",
+      headers: {
+        email: email,
+      },
+    });
+    onLoadFinancesData();
+  } catch (error) {
+    alert("Erro ao deletar item.");
+  }
+};
+
 const renderFinancesList = (data) => {
   const table = document.getElementById("finances-table");
+
   table.innerHTML = "";
 
   const tableHeader = document.createElement("tr");
 
   const titleText = document.createTextNode("Título");
   const titleElement = document.createElement("th");
+  titleElement.className = "left";
   titleElement.appendChild(titleText);
   tableHeader.appendChild(titleElement);
 
   const categoryText = document.createTextNode("Categoria");
   const categoryElement = document.createElement("th");
+  categoryElement.className = "category";
   categoryElement.appendChild(categoryText);
   tableHeader.appendChild(categoryElement);
 
@@ -21,7 +39,7 @@ const renderFinancesList = (data) => {
 
   const valueText = document.createTextNode("Valor");
   const valueElement = document.createElement("th");
-  valueElement.className = "center";
+  valueElement.className = "value";
   valueElement.appendChild(valueText);
   tableHeader.appendChild(valueElement);
 
@@ -38,16 +56,19 @@ const renderFinancesList = (data) => {
     tableRow.className = "mt smaller";
 
     const titleTd = document.createElement("td");
+    titleTd.className = "left";
     const titleText = document.createTextNode(item.title);
     titleTd.appendChild(titleText);
     tableRow.appendChild(titleTd);
 
     const categoryTd = document.createElement("td");
+    categoryTd.className = "category";
     const categoryText = document.createTextNode(item.name);
     categoryTd.appendChild(categoryText);
     tableRow.appendChild(categoryTd);
 
     const dateTd = document.createElement("td");
+    dateTd.className = "center";
     const dateText = document.createTextNode(
       new Date(item.date).toLocaleDateString("pt-BR", { timeZone: "UTC" })
     );
@@ -55,7 +76,7 @@ const renderFinancesList = (data) => {
     tableRow.appendChild(dateTd);
 
     const valueTd = document.createElement("td");
-    valueTd.className = "center";
+    valueTd.className = "value";
     const valueText = document.createTextNode(
       new Intl.NumberFormat("pt-BR", {
         style: "currency",
@@ -66,6 +87,7 @@ const renderFinancesList = (data) => {
     tableRow.appendChild(valueTd);
 
     const deleteTd = document.createElement("td");
+    deleteTd.onclick = () => onDeleteItem(item.id);
     deleteTd.className = "right";
     const deleteText = document.createTextNode("Deletar");
     deleteTd.appendChild(deleteText);
@@ -153,7 +175,12 @@ const renderFinanceElements = (data) => {
   );
   const balanceTextElement = document.createElement("h1");
   balanceTextElement.classname = "mt smaller";
-  balanceTextElement.style.color = "#5936cd";
+  if (totalValue < 0) {
+    balanceTextElement.style.color = "#ff3232";
+  } else {
+    balanceTextElement.style.color = "#00FF7F";
+  }
+
   balanceTextElement.appendChild(balanceText);
   financeCard4.appendChild(balanceTextElement);
 };

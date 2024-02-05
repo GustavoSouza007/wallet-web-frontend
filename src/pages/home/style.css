@@ -108,28 +108,60 @@ tr {
 }
 
 th {
-  text-align: left;
+  width: 220px;
+  max-width: 220px;
   color: #7c7c7c;
+}
+
+th.left {
+  text-align: left;
 }
 
 th.right {
   text-align: right;
 }
 
-th.center {
+th.value {
   text-align: center;
+  padding-left: 100px;
+}
+
+th.category {
+  text-align: center;
+  padding-right: 100px;
 }
 
 td {
+  max-width: 60px;
   color: #7c7c7c;
 }
 
-td.right {
-  text-align: right;
+td.left {
+  text-align: left;
 }
 
 td.center {
   text-align: center;
+}
+
+td.right {
+  text-align: right;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+td.right:hover {
+  color: #ff4c4c;
+}
+
+td.category {
+  text-align: center;
+  padding-right: 100px;
+}
+
+td.value {
+  text-align: center;
+  padding-left: 100px;
 }
 
 .modal-background {
