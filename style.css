@@ -40,7 +40,8 @@ p {
   font-size: 14px;
   font-weight: 500;
   margin: 0px;
-  padding: 0px;
+  padding-left: 56px;
+  box-sizing: border-box;
   color: #7c7c7c;
 }
 
@@ -70,6 +71,7 @@ a {
   font-weight: 700;
   cursor: pointer;
   text-decoration: underline;
+  padding-left: 12px;
 }
 
 button {

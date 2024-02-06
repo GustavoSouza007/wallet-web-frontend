@@ -27,10 +27,11 @@
 }
 
 .navbar-calendar-container {
-  width: 240px;
+  width: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-left: 180px;
 }
 
 .input-calendar {
@@ -39,6 +40,9 @@
   text-align: center;
   font-size: 16px;
   font-weight: bold;
+  border: #5936cd;
+  border-width: 1px;
+  border-style: solid;
 }
 
 .navbar-user-container {
@@ -56,8 +60,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: fixed;
   border-radius: 24px;
-  background-color: #e4fde1;
+  background-color: #e6e6fa;
 }
 
 .finance-card-container {
@@ -98,6 +103,8 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  overflow-x: scroll;
+  overflow: auto;
   border-radius: 24px;
   padding: 24px;
   box-sizing: border-box;
