@@ -557,7 +557,7 @@
   input {
     width: 100%;
     height: 56px;
-    font-size: 8px;
+    font-size: 10.8px;
   }
 }
 
@@ -576,6 +576,12 @@
 
   a {
     font-size: 12px;
+  }
+
+  input {
+    width: 100%;
+    height: 56px;
+    font-size: 8px;
   }
 
   .input-calendar {
