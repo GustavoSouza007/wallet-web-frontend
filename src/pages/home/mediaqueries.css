@@ -292,6 +292,12 @@
 }
 
 @media screen and (max-width: 625px) {
+  input {
+    width: 100%;
+    height: 56px;
+    font-size: 14px;
+  }
+
   .finance-card {
     width: 126px;
     height: 96px;
@@ -338,12 +344,6 @@
     font-weight: 500;
   }
 
-  input {
-    width: 100%;
-    height: 56px;
-    font-size: 14px;
-  }
-
   .navbar {
     padding: 24px 10px;
   }
@@ -380,6 +380,14 @@
 
   .table-container {
     padding: 0px 10px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  input {
+    width: 100%;
+    height: 56px;
+    font-size: 12px;
   }
 }
 
@@ -484,6 +492,14 @@
   }
 }
 
+@media screen and (max-width: 422px) {
+  input {
+    width: 100%;
+    height: 56px;
+    font-size: 10px;
+  }
+}
+
 @media screen and (max-width: 400px) {
   h1 {
     font-size: 11.4px;
@@ -501,12 +517,6 @@
     width: 100%;
     font-size: 12px;
     font-weight: 500;
-  }
-
-  input {
-    width: 100%;
-    height: 56px;
-    font-size: 11px;
   }
 
   .logo-navbar {
@@ -533,12 +543,6 @@
     font-size: 10.5px;
   }
 
-  input {
-    width: 100%;
-    height: 56px;
-    font-size: 10px;
-  }
-
   .finance-card {
     width: 76px;
     height: 70px;
@@ -546,6 +550,14 @@
 
   tr {
     height: 32px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  input {
+    width: 100%;
+    height: 56px;
+    font-size: 8px;
   }
 }
 
@@ -564,12 +576,6 @@
 
   a {
     font-size: 12px;
-  }
-
-  input {
-    width: 100%;
-    height: 56px;
-    font-size: 8px;
   }
 
   .input-calendar {
