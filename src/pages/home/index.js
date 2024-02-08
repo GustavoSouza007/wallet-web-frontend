@@ -115,7 +115,7 @@ const renderFinanceElements = (data) => {
   const financeCard1 = document.getElementById("finance-card-1");
   financeCard1.innerHTML = "";
 
-  const totalSubText = document.createTextNode("Total de lançamentos");
+  const totalSubText = document.createTextNode("Lançamentos");
   const totalSubTextElement = document.createElement("h3");
   totalSubTextElement.appendChild(totalSubText);
   financeCard1.appendChild(totalSubTextElement);

@@ -1,0 +1,591 @@
+@media screen and (max-width: 1440px) {
+  .navbar {
+    padding: 24px 60px;
+  }
+
+  .finance-card-container {
+    padding: 48px 60px;
+  }
+
+  .table-container {
+    padding: 0px 60px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .navbar {
+    padding: 24px 40px;
+  }
+
+  .finance-card-container {
+    padding: 48px 40px;
+  }
+
+  .table-container {
+    padding: 0px 40px;
+  }
+
+  tr {
+    height: 36px;
+  }
+
+  th {
+    font-size: 18px;
+  }
+
+  td {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  h1 {
+    font-size: 34px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .finance-card {
+    width: 240px;
+    height: 140px;
+    border-radius: 24px;
+  }
+
+  tr {
+    height: 34px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  tr {
+    height: 36px;
+  }
+
+  th.value {
+    text-align: center;
+    padding-left: 50px;
+  }
+
+  th.category {
+    text-align: center;
+    padding-right: 50px;
+  }
+
+  td.category {
+    text-align: center;
+    padding-right: 50px;
+  }
+
+  td.value {
+    text-align: center;
+    padding-left: 50px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  label {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  input {
+    width: 100%;
+    height: 56px;
+    font-size: 16px;
+  }
+
+  .modal-content {
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  .finance-card {
+    width: 180px;
+    height: 140px;
+    border-radius: 24px;
+  }
+
+  tr {
+    height: 38px;
+  }
+}
+
+@media screen and (max-width: 885px) {
+  .navbar {
+    padding: 24px 30px;
+  }
+
+  .finance-card-container {
+    padding: 48px 30px;
+  }
+
+  .table-container {
+    padding: 0px 30px;
+  }
+
+  tr {
+    height: 40px;
+  }
+
+  th {
+    font-size: 16px;
+  }
+
+  td {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 865px) {
+  td.value {
+    text-align: center;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    display: none;
+  }
+
+  .navbar-calendar-container {
+    padding-left: 50px;
+  }
+
+  .navbar-user-container {
+    width: 110px;
+    justify-content: space-between;
+  }
+
+  .navbar-user-avatar {
+    position: relative;
+  }
+
+  .finance-card {
+    width: 170px;
+    height: 140px;
+    border-radius: 24px;
+  }
+
+  tr {
+    height: 44px;
+  }
+
+  th.value {
+    text-align: center;
+    padding-left: 20px;
+  }
+
+  th.category {
+    text-align: center;
+    padding-right: 20px;
+  }
+
+  td.category {
+    text-align: center;
+    padding-right: 20px;
+  }
+
+  td.value {
+    text-align: center;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  .finance-card {
+    width: 160px;
+    height: 130px;
+    border-radius: 24px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  .finance-card {
+    width: 150px;
+    height: 120px;
+    border-radius: 24px;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  th {
+    font-size: 14px;
+  }
+
+  td {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  button.small {
+    width: 90px;
+    height: 36px;
+    font-size: 14px;
+  }
+
+  .finance-card {
+    width: 140px;
+    height: 110px;
+    border-radius: 24px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  h1 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  .finance-card {
+    width: 126px;
+    height: 96px;
+    border-radius: 14px;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .finance-card {
+    width: 126px;
+    height: 96px;
+    border-radius: 24px;
+  }
+
+  th.value {
+    text-align: center;
+    padding-left: 10px;
+  }
+
+  th.category {
+    text-align: center;
+    padding-right: 0px;
+  }
+
+  td.category {
+    text-align: center;
+    padding-right: 0px;
+  }
+
+  td.value {
+    text-align: center;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 595px) {
+  h1 {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  a {
+    font-size: 16px;
+  }
+
+  label {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  input {
+    width: 100%;
+    height: 56px;
+    font-size: 14px;
+  }
+
+  .navbar {
+    padding: 24px 10px;
+  }
+
+  .navbar-calendar-container {
+    padding-left: 20px;
+  }
+
+  .input-calendar {
+    width: 126px;
+    height: 46px;
+    font-size: 14px;
+  }
+
+  .navbar-user-container {
+    width: 90px;
+    justify-content: space-between;
+  }
+
+  .navbar-user-avatar {
+    width: 40px;
+    height: 40px;
+  }
+
+  .finance-card-container {
+    padding: 48px 10px;
+  }
+
+  .finance-card {
+    width: 118px;
+    height: 88px;
+    border-radius: 24px;
+  }
+
+  .table-container {
+    padding: 0px 10px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  h1 {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  .finance-card {
+    width: 100px;
+    height: 88px;
+    border-radius: 14px;
+  }
+
+  td {
+    font-size: 12px;
+  }
+
+  th.category {
+    text-align: center;
+    padding-right: 0px;
+  }
+
+  td.category {
+    text-align: center;
+    padding-right: 0px;
+  }
+
+  th.value {
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  td.value {
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  .table-content-container {
+    padding: 14px;
+  }
+
+  .modal-content {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  h1 {
+    font-size: 12px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+
+  a {
+    font-size: 14px;
+  }
+
+  label {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  input {
+    width: 100%;
+    height: 56px;
+    font-size: 12px;
+  }
+
+  .input-calendar {
+    width: 118px;
+    height: 36px;
+    font-size: 12px;
+  }
+
+  .finance-card {
+    width: 90px;
+    height: 80px;
+  }
+
+  tr {
+    height: 34px;
+  }
+
+  th {
+    font-size: 12px;
+  }
+
+  td {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 11.4px;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 11.4px;
+  }
+
+  label {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  input {
+    width: 100%;
+    height: 56px;
+    font-size: 11px;
+  }
+
+  .logo-navbar {
+    width: 54px;
+    height: 20px;
+  }
+
+  .finance-card {
+    width: 80px;
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  h1 {
+    font-size: 10.5px;
+  }
+
+  h2 {
+    font-size: 12px;
+  }
+
+  h3 {
+    font-size: 10.5px;
+  }
+
+  input {
+    width: 100%;
+    height: 56px;
+    font-size: 10px;
+  }
+
+  .finance-card {
+    width: 76px;
+    height: 70px;
+  }
+
+  tr {
+    height: 32px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 9.6px;
+  }
+
+  h2 {
+    font-size: 12px;
+  }
+
+  h3 {
+    font-size: 9.6px;
+  }
+
+  a {
+    font-size: 12px;
+  }
+
+  input {
+    width: 100%;
+    height: 56px;
+    font-size: 8px;
+  }
+
+  .input-calendar {
+    width: 100px;
+    height: 32px;
+    font-size: 10px;
+  }
+
+  .navbar-user-container {
+    width: 72px;
+    justify-content: space-between;
+  }
+
+  .navbar-user-avatar {
+    width: 36px;
+    height: 36px;
+  }
+
+  .finance-card {
+    width: 68px;
+    height: 64px;
+  }
+
+  th {
+    font-size: 10px;
+  }
+
+  td {
+    font-size: 8px;
+  }
+}
