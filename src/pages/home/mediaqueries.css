@@ -63,6 +63,12 @@
     font-size: 30px;
   }
 
+  .finance-card {
+    width: 220px;
+    height: 140px;
+    border-radius: 24px;
+  }
+
   tr {
     height: 36px;
   }
@@ -97,6 +103,12 @@
     font-size: 18px;
   }
 
+  .finance-card {
+    width: 200px;
+    height: 140px;
+    border-radius: 24px;
+  }
+
   label {
     width: 100%;
     font-size: 16px;
@@ -119,12 +131,6 @@
     font-size: 24px;
   }
 
-  .finance-card {
-    width: 180px;
-    height: 140px;
-    border-radius: 24px;
-  }
-
   tr {
     height: 38px;
   }
@@ -137,6 +143,12 @@
 
   .finance-card-container {
     padding: 48px 30px;
+  }
+
+  .finance-card {
+    width: 180px;
+    height: 140px;
+    border-radius: 24px;
   }
 
   .table-container {
