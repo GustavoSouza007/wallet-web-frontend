@@ -1,5 +1,8 @@
 # Wallet Web
 
+<img src="https://github.com/GustavoSouza007/wallet-web-frontend/blob/main/src/assets/img/preview.png"
+alt="Wallet Preview">
+
 ## Introduction
 
 This is a finance management dashboard made with JavaScript, HTML and CSS.
