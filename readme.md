@@ -11,7 +11,7 @@ and inform him of the balance of the month.
 
 ## Live Link
 
-https://wallet-web-frontend.vercel.app/
+https://wallet-web-app.vercel.app/
 
 ## Technologies used
 
