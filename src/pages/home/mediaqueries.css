@@ -225,6 +225,10 @@
     text-align: center;
     padding-left: 20px;
   }
+
+  .modal-content {
+    width: 100vw;
+  }
 }
 
 @media screen and (max-width: 780px) {
@@ -436,10 +440,6 @@
 
   .table-content-container {
     padding: 14px;
-  }
-
-  .modal-content {
-    width: 80vw;
   }
 }
 
