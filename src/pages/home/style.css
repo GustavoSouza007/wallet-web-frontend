@@ -206,7 +206,7 @@ td.value {
 
 .modal-content {
   width: 480px;
-  height: 100%;
+  height: 100vh;
   padding: 24px;
   box-sizing: border-box;
   background-color: #f4f4f9;
